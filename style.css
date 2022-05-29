@@ -33,14 +33,14 @@
   flex-grow: 1
 }
 .main__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .main__list-item, .main__title{
-  list-style:none;
+  list-style: none;
 }
 .main__input{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -50,7 +50,7 @@
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
-  outline:none;
+  outline: none;
 }
 .button:hover {
   color: #3a3A3a;
@@ -135,12 +135,12 @@
 
 
 .main__edit-mode .main__input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .main__edit-mode .main__label {
-  display:none;
+  display: none;
 }
 
 @media (max-width:768px) {
