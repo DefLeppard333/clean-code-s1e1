@@ -25,7 +25,7 @@
 }
 .main__add-wrapper {
   display: flex;
-  padding: 20px 0px;
+  padding: 20px 0;
 }
 .main__task {
   width: 56%;
@@ -34,7 +34,7 @@
 }
 .main__list {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 .main__list-item,
 .main__title{
@@ -58,7 +58,7 @@
 }
 /* Heading */
 .main__title,
-.main__input[for='new-task'] {
+.main__input[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -136,7 +136,7 @@
 /* Edit Task */
 
 .main__edit-mode 
-.main__input[type=text] {
+.main__input[type="text"] {
   display: inline-block;
   width: 224px;
 }
